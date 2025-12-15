@@ -1,4 +1,4 @@
-# 💸 FinGrow – Fintech API with FastAPI
+ 💸 FinGrow – Fintech API with FastAPI
 
 A modern FinTech backend built with **Python + FastAPI**, designed for payments, wallets, transactions, and user accounts.  
 Clean architecture, JWT auth, async APIs, and ready to deploy on cloud platforms.
