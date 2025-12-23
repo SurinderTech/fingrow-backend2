@@ -35,19 +35,27 @@ Clean architecture, JWT auth, async APIs, and ready to deploy on cloud platforms
 
 ```bash
 git clone https://github.com/<your-username>/fintech-fastapi-app.git
+```
+
+```
 cd fintech-fastapi-app
+```
 2️⃣ Create & activate virtual environment
 bash
 Copy code
+
+````
 python -m venv venv
+````
 # Windows
 venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 3️⃣ Install dependencies
-bash
-Copy code
+
+```
 pip install -r requirements.txt
+````
 4️⃣ Set environment variables
 Create a .env file in the root:
 
@@ -67,7 +75,9 @@ alembic upgrade head
 6️⃣ Start the FastAPI server
 bash
 Copy code
+````
 uvicorn app.main:app --reload
+````
 Now open:
 
 API Docs (Swagger UI): http://127.0.0.1:8000/docs
